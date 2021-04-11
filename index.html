@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>youtube-thumbnail-game</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div id="logo">
+    <img src="imgs/logo.png" alt="logo">
+  </div>
+
+  <div id="buttons">
+    <label id="boxNbutt">
+      <input id="query" placeholder="type something here then start/next !" type="text"/>
+      <button id="search-button" onclick="checkQuery();removeThumbs();keyWordSearch();remove(this);setTimeout(next, 1500)"><img id="start-img" src="imgs/startButton.png" alt="start"></button>
+    </label>
+  </div>
+  
+  <div id="thumb-container"></div>
+
+  <div id="points"></div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"> </script>
+  <script src="search.js"></script>
+</body>
+
+</html>
