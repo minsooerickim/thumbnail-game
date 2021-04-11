@@ -145,4 +145,63 @@ input::placeholder {
         z-index: -1;
         position: absolute;
     }
+    #start-img {
+        width: 30%;
+        height: 30%;
+        cursor: pointer;
+    }
+    .correct1 {
+        position:absolute;
+        top: 5%;
+        left: -5%;
+        width: 70%;
+        height: 70%;
+        z-index: 100;
+        background: transparent url(imgs/check2.png) no-repeat;
+    }
+    .correct2 {
+        position:absolute;
+        top: 35%;
+        left: -5%;
+        width: 70%;
+        height: 70%;
+        z-index: 100;
+        background: transparent url(imgs/check2.png) no-repeat;
+    }
+    .correct3 {
+        position:absolute;
+        top: 70%;
+        left: -5%;
+        width: 70%;
+        height: 70%;
+        z-index: 100;
+        background: transparent url(imgs/check2.png) no-repeat;
+    }
+    .wrong1 {
+        position:absolute;
+        top: 5%;
+        left: -5%;
+        width: 70%;
+        height: 70%;
+        z-index: 100;
+        background: transparent url(imgs/x3.png) no-repeat;
+    }
+    .wrong2 {
+        position:absolute;
+        top: 35%;
+        left: -5%;
+        width: 70%;
+        height: 70%;
+        z-index: 100;
+        background: transparent url(imgs/x3.png) no-repeat;
+    }
+    .wrong3 {
+        position:absolute;
+        top: 70%;
+        left: -5%;
+        width: 70%;
+        height: 70%;
+        z-index: 100;
+        background: transparent url(imgs/x3.png) no-repeat;
+    }
 }

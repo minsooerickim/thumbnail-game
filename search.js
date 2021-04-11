@@ -1,11 +1,14 @@
 function keyWordSearch() {
     gapi.client.setApiKey('AIzaSyBYRDGmU8l00ww9MrHfT_xYg4swNBw7iNM');
     gapi.client.load('youtube', 'v1', function() {
+            var mq = window.matchMedia( "(max-width: 600px)" );
+            if (mq.matches) {
+                phone();
+            }
             makeRequest();
             makeRequestViews();
     });
 }
-
 function makeRequest() {
     var q = $('#query').val();
     var request = gapi.client.youtube.search.list({
@@ -373,7 +376,6 @@ function removeThumbs() {
         document.getElementById('questionNumber').remove();
     }
 
-    console.log('test');
     questionNumber = document.createElement('img');
     questionNumber.id = 'questionNumber';
     questionNumber.src = "imgs/question/" + counter.toString() + ".png";
@@ -402,4 +404,15 @@ function checkQuery() {
     if (userInput.value == "") {
         alert("TIP: Type something in the search box before proceeding for more interesting results!");
     }
+}
+
+function phone() {
+    //getting rid of messi
+    var body = document.getElementsByTagName('body')[0];
+    body.style.backgroundImage =  'none'
+    body.style.backgroundColor = 'black'
+
+    //stack thumbnails vertically
+    thumbContainer = document.getElementById('thumb-container');
+    thumbContainer.style.display = "block";
 }
