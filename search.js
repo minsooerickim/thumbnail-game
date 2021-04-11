@@ -234,10 +234,10 @@ function next() {
             document.getElementById('thumb-container').innerHTML = "";
 
             //add goodJob 
-            goodJob = document.createElement('img');
-            goodJob.setAttribute('id', 'goodJob');
-            goodJob.src = "imgs/goodJob.png";
-            document.getElementById('buttons').appendChild(goodJob);
+            // goodJob = document.createElement('img');
+            // goodJob.setAttribute('id', 'goodJob');
+            // goodJob.src = "imgs/goodJob.png";
+            // document.getElementById('buttons').appendChild(goodJob);
 
             //add something final a cute image or sum
             finalImage = document.createElement('img');
@@ -286,11 +286,11 @@ function next() {
             //remove thumbnails
             document.getElementById('thumb-container').innerHTML = "";
 
-            //add goodJob 
-            goodJob = document.createElement('img');
-            goodJob.setAttribute('id', 'goodJob');
-            goodJob.src = "imgs/goodJob.png";
-            document.getElementById('buttons').appendChild(goodJob);
+            // //add goodJob 
+            // goodJob = document.createElement('img');
+            // goodJob.setAttribute('id', 'goodJob');
+            // goodJob.src = "imgs/goodJob.png";
+            // document.getElementById('buttons').appendChild(goodJob);
 
             //add something final a cute image or sum
             finalImage = document.createElement('img');
@@ -338,11 +338,11 @@ function next() {
             //remove thumbnails
             document.getElementById('thumb-container').innerHTML = "";
 
-            //add goodJob 
-            goodJob = document.createElement('img');
-            goodJob.setAttribute('id', 'goodJob');
-            goodJob.src = "imgs/goodJob.png";
-            document.getElementById('buttons').appendChild(goodJob);
+            // //add goodJob 
+            // goodJob = document.createElement('img');
+            // goodJob.setAttribute('id', 'goodJob');
+            // goodJob.src = "imgs/goodJob.png";
+            // document.getElementById('buttons').appendChild(goodJob);
 
             //add something final a cute image or sum
             finalImage = document.createElement('img');
