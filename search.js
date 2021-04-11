@@ -1,5 +1,5 @@
 function keyWordSearch() {
-    gapi.client.setApiKey('API_KEY');
+    gapi.client.setApiKey('AIzaSyBYRDGmU8l00ww9MrHfT_xYg4swNBw7iNM');
     gapi.client.load('youtube', 'v1', function() {
             makeRequest();
             makeRequestViews();
@@ -378,7 +378,7 @@ function removeThumbs() {
     questionNumber.id = 'questionNumber';
     questionNumber.src = "imgs/question/" + counter.toString() + ".png";
     document.getElementById('buttons').prepend(questionNumber);
-    
+
     //adding points
     if (pointCounter == 1) {
         point = document.createElement('img');
