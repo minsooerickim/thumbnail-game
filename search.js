@@ -22,6 +22,9 @@ function makeRequest() {
         var dict = JSON.parse(strRes);
         parseVidId(dict);
         parseImage(dict);
+        //clearing input val
+        var userInput = document.getElementById('query');
+        userInput.value = '';
     });
 }
 
@@ -364,9 +367,6 @@ function getWinningIndex() {
 var counter = 1;
 var pointCounter = 1;
 function removeThumbs() {
-    //clearing input val
-    var userInput = document.getElementById('query');
-    userInput.value = '';
     //clearing previous thumbs
     document.getElementById('thumb-container').innerHTML = "";
     bruhId = [];
@@ -418,4 +418,10 @@ function phone() {
     //stack thumbnails vertically
     thumbContainer = document.getElementById('thumb-container');
     thumbContainer.style.display = "block";
+}
+
+function reset() {
+    //clearing input val
+    var userInput = document.getElementById('query');
+    userInput.value = '';
 }
