@@ -134,6 +134,8 @@ input::placeholder {
     body {
         background-image: url("imgs/phone_messi.png");
         background-size: 100% 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
     #background-img {
         top: 0 !important;
@@ -147,7 +149,7 @@ input::placeholder {
     }
     #start-img {
         width: 30%;
-        height: 30%;
+        height: 5%;
         cursor: pointer;
     }
     .correct1 {
@@ -203,5 +205,13 @@ input::placeholder {
         height: 70%;
         z-index: 100;
         background: transparent url(imgs/x3.png) no-repeat;
+    }
+    input::placeholder {
+        font-size: xx-small;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-transform: uppercase;
+        font-family:fantasy;
+        letter-spacing: 2px;
     }
 }
