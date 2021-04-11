@@ -1,8 +1,5 @@
-//appending thumbnail pics prints in order
-//AIzaSyBSlP4gPCojbCgP0kns_XgvDAa38-sx4vg   (futuretubies)
-//AIzaSyBYRDGmU8l00ww9MrHfT_xYg4swNBw7iNM (minsooerickim)
 function keyWordSearch() {
-    gapi.client.setApiKey('AIzaSyBSlP4gPCojbCgP0kns_XgvDAa38-sx4vg');
+    gapi.client.setApiKey('API_KEY');
     gapi.client.load('youtube', 'v1', function() {
             makeRequest();
             makeRequestViews();
@@ -123,7 +120,7 @@ function remove(el) {
         var element = document.getElementById('logo');
         element.innerHTML = "";
 
-    //replacing start to next
+        //replacing start to next
         button = document.getElementById('start-img');
         button.src = "imgs/next.png";
     }
@@ -381,14 +378,7 @@ function removeThumbs() {
     questionNumber.id = 'questionNumber';
     questionNumber.src = "imgs/question/" + counter.toString() + ".png";
     document.getElementById('buttons').prepend(questionNumber);
-    // //restating placeholder value
-    // textBox = getElementById('query');
-    // textBox.placeholder = "TYPE A NEW WORD OR PHRASE HERE:)" 
-
-    // //last question
-    // if (counter == 2) {
-
-    // }
+    
     //adding points
     if (pointCounter == 1) {
         point = document.createElement('img');
