@@ -207,7 +207,7 @@ input::placeholder {
         background: transparent url(imgs/x3.png) no-repeat;
     }
     input::placeholder {
-        font-size: xx-small;
+        font-size: 10px;
         color: rgb(255, 255, 255);
         text-align: center;
         text-transform: uppercase;

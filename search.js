@@ -364,6 +364,9 @@ function getWinningIndex() {
 var counter = 1;
 var pointCounter = 1;
 function removeThumbs() {
+    //clearing input val
+    var userInput = document.getElementById('query');
+    userInput.value = '';
     //clearing previous thumbs
     document.getElementById('thumb-container').innerHTML = "";
     bruhId = [];
