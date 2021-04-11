@@ -18,6 +18,10 @@ body {
     opacity: 100% !important;
     
 }
+html, body {
+    max-height: 100%;
+    overflow-y: hidden;
+}
 body {
     padding: 5% 5%;
     position: relative;
