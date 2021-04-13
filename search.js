@@ -1,5 +1,5 @@
 function keyWordSearch() {
-    gapi.client.setApiKey('AIzaSyBYRDGmU8l00ww9MrHfT_xYg4swNBw7iNM');
+    gapi.client.setApiKey('API_KEY');
     gapi.client.load('youtube', 'v1', function() {
             var mq = window.matchMedia( "(max-width: 600px)" );
             if (mq.matches) {
