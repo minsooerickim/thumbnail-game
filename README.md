@@ -16,3 +16,6 @@ Scoreboard
 ----------
 3. +10 points for choosing the right answer
 4. -10 points for choosing the wrong answer
+
+![tg](https://user-images.githubusercontent.com/62922309/175853127-5664bf07-9fb0-4fcb-9842-a5f5fa540981.PNG)
+![tg2](https://user-images.githubusercontent.com/62922309/175853183-80737ffd-26b8-47fe-8100-25505332fc62.PNG)
